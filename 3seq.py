@@ -1,0 +1,6 @@
+numbers_str = input("Введите элементы 1-го списка через запятую ")
+numbers_list1 = map(int,numbers_str.split(','))
+numbers_str = input("Введите элементы 1-го списка через запятую ")
+numbers_list2 = map(int,numbers_str.split(','))
+numbers_out = set(numbers_list1).difference(set(numbers_list2))
+print('Результат: ', ','.join(map(str,numbers_out)))
