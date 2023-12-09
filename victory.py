@@ -10,7 +10,7 @@ while next_round == 1:
     keys = random.sample(list(people_famous), 5)
     values = [people_famous[i] for i in keys]
     people_random = dict(zip(keys, values))
-    print(people_random)
+    #print(people_random)
     count_good = 0
     count_bad = 0
     for i in people_random:
